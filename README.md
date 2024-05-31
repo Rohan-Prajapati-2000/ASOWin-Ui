@@ -2,7 +2,8 @@
 
 # About this application
 
-This is the UI for ASOWin <br>
+This is the UI for ASOWin<br>
+For achieving this UI I use only two dependency (dotted_border and iconsax)<br>
 
 # How to run this application in your system
 Step-1 => Go pubspec.yaml file and implement all dependencies.<br>
@@ -14,5 +15,5 @@ https://drive.google.com/file/d/1puPV8df3TwgAZ1LCVH6QwCojk5uQy6Y6/view?usp=shari
 
 Thanks & Regards
 
-Rohan Prajapati
+Rohan Prajapati<br>
 +91 7238073325
