@@ -1,3 +1,4 @@
+import 'package:aso_win/widgets/progress_bar.dart';
 import 'package:flutter/material.dart';
 
 class ProgressWidget extends StatelessWidget{
@@ -21,12 +22,12 @@ class ProgressWidget extends StatelessWidget{
           decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(5),
               border: Border.all(color: Colors.grey)),
-          child: Column(
+          child: const Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Row(
                 children: [
-                  const Expanded(
+                  Expanded(
                     flex: 2,
                     child: Column(
                       children: [
@@ -40,14 +41,14 @@ class ProgressWidget extends StatelessWidget{
                   Expanded(
                     flex: 8,
                     child: Padding(
-                      padding: const EdgeInsets.only(right: 10),
+                      padding: EdgeInsets.only(right: 10),
                       child: Column(
                         children: [
-                          const Row(
+                          Row(
                             mainAxisAlignment:
                             MainAxisAlignment.spaceBetween,
                             children: [
-                              Text('TOI APP (100%)',
+                              Text('TOI APP (33.33%)',
                                   style: TextStyle(
                                       fontSize: 8, color: Colors.grey)),
                               Text('Pending',
@@ -55,13 +56,8 @@ class ProgressWidget extends StatelessWidget{
                                       fontSize: 8, color: Colors.grey))
                             ],
                           ),
-                          const SizedBox(height: 2),
-                          Container(
-                            height: 7,
-                            decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(15),
-                                color: Colors.orangeAccent[700]),
-                          ),
+                          SizedBox(height: 2),
+                          ProgressBar(height: 7, width: 100)
                         ],
                       ),
                     ),

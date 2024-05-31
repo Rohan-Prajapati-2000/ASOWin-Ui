@@ -2,7 +2,6 @@ import 'package:aso_win/widgets/header.dart';
 import 'package:aso_win/widgets/next_step_button.dart';
 import 'package:aso_win/widgets/progress_widget.dart';
 import 'package:aso_win/widgets/upload_file_widget.dart';
-import 'package:dotted_border/dotted_border.dart';
 import 'package:flutter/material.dart';
 
 class MyHomePage extends StatelessWidget {

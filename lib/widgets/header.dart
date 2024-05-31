@@ -1,17 +1,16 @@
+import 'package:aso_win/widgets/progress_bar.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class HeaderWidget extends StatelessWidget{
+  const HeaderWidget({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Column(
       children: [
-        Container(
-          height: 7,
-          decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(15),
-              color: Colors.orangeAccent[700]),
-        ),
+
+        ProgressBar(height: 7, width: 250),
 
         const SizedBox(height: 8),
 
