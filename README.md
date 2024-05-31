@@ -1,16 +1,14 @@
 # aso_win
 
-A new Flutter project.
+# About this application
 
-## Getting Started
+This is the UI for ASOWin <br>
 
-This project is a starting point for a Flutter application.
+# How to run this application in your system
+Step-1 => Go pubspec.yaml file and implement all dependencies.<br>
+Step-2 => Now you can connect you phone or you can run in emulator by clicking run button.<br>
 
-A few resources to get you started if this is your first Flutter project:
+Thanks & Regards
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Rohan Prajapati
++91 7238073325
